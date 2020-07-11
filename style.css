@@ -1,21 +1,41 @@
-/* #### Mobile Phones Portrait #### */
-@media screen and (max-device-width: 480px) and (orientation: portrait){
-  /* some CSS here */
-}
-
-/* #### Mobile Phones Landscape #### */
-@media screen and (max-device-width: 640px) and (orientation: landscape){
-  /* some CSS here */
-}
-
 /* #### Mobile Phones Portrait or Landscape #### */
-@media screen and (max-device-width: 640px){
-  /* some CSS here */
-}
+@media screen and (max-width: 1024px){
+	html {
+		font-family: 'Open Sans', sans-serif;
+		margin: auto;
+		max-width: 1600px;
+	}
 
-/* #### Tablets Portrait or Landscape #### */
-@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
-  /* some CSS here */
+	h1 {
+		font-weight: 600;
+	}
+
+	.header {
+		margin: 10px;
+	}
+
+	.main {
+		display: grid;
+		grid-template-columns: 1fr;
+		height: 800px;
+		margin: 10px;
+	}
+
+	.box1 {
+		grid-column: 1;
+		border: 2px solid green;
+		margin-bottom: 5px;
+	}
+
+	.box2 {
+		grid-column: 1;
+		border: 2px solid green;
+		margin-top: 5px;
+	}
+
+	.footer {
+		margin: 10px;
+	}
 }
 
 /* #### Desktops #### */
@@ -31,12 +51,10 @@
 	}
 
 	.header {
-		border: 3px solid green;
 		margin: 10px;
 	}
 
 	.main {
-
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		height: 800px;
@@ -45,18 +63,17 @@
 
 	.box1 {
 		grid-column: 1;
-		border: 3px solid green;
+		border: 2px solid green;
 		margin-right: 5px;
 	}
 
 	.box2 {
 		grid-column: 2;
-		border: 3px solid green;
+		border: 2px solid green;
 		margin-left: 5px;
 	}
 
 	.footer {
-		border: 3px solid green;
 		margin: 10px;
 	}
 }
