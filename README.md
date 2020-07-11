@@ -1,1 +1,1 @@
-# covid19-hospital-availability
+# covid19-hospital-bed-availability
