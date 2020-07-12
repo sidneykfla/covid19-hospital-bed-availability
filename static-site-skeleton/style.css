@@ -1,0 +1,80 @@
+/* #### Mobile Phones Portrait or Landscape #### */
+@media screen and (max-width: 1024px){
+	html {
+		font-family: 'Open Sans', sans-serif;
+		margin: auto;
+		max-width: 1600px;
+	}
+
+	h1 {
+		font-weight: 600;
+	}
+
+	.header {
+		margin: 10px;
+	}
+
+	.main {
+		display: grid;
+		grid-template-columns: 1fr;
+		height: 800px;
+		margin: 10px;
+	}
+
+	.box1 {
+		grid-column: 1;
+		border: 2px solid green;
+		margin-bottom: 5px;
+	}
+
+	.box2 {
+		grid-column: 1;
+		border: 2px solid green;
+		margin-top: 5px;
+	}
+
+	.footer {
+		margin: 10px;
+	}
+}
+
+/* #### Desktops #### */
+@media screen and (min-width: 1024px){
+	html {
+		font-family: 'Open Sans', sans-serif;
+		margin: auto;
+		max-width: 1600px;
+	}
+
+	h1 {
+		font-weight: 600;
+	}
+
+	.header {
+		margin: 10px;
+	}
+
+	.main {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		height: 800px;
+		margin: 10px;
+	}
+
+	.box1 {
+		grid-column: 1;
+		border: 2px solid green;
+		margin-right: 5px;
+	}
+
+	.box2 {
+		grid-column: 2;
+		border: 2px solid green;
+		margin-left: 5px;
+	}
+
+	.footer {
+		margin: 10px;
+	}
+}
+
